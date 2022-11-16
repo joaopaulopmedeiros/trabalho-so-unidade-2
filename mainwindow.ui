@@ -462,7 +462,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trem 04 -&gt; </string>
+     <string>Trem 04: </string>
     </property>
    </widget>
    <widget class="QLabel" name="velLabel01_2">
@@ -475,7 +475,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trem 01 -&gt;</string>
+     <string>Trem 01:</string>
     </property>
    </widget>
    <widget class="QLabel" name="velLabel02_2">
@@ -488,7 +488,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trem 02 -&gt;</string>
+     <string>Trem 02:</string>
     </property>
    </widget>
    <widget class="QLabel" name="trem1x">
@@ -717,7 +717,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trem 03 -&gt; </string>
+     <string>Trem 03:</string>
     </property>
    </widget>
    <widget class="QLabel" name="trem3y">
@@ -843,7 +843,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trem 05 -&gt; </string>
+     <string>Trem 05: </string>
     </property>
    </widget>
    <widget class="QLabel" name="trem5y">
