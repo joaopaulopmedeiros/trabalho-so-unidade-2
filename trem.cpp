@@ -3,7 +3,7 @@
 
 static QMutex mutex[7];
 
-//Construtor
+//construtor
 Trem::Trem(int ID, int x, int y){
     this->ID = ID;
     this->x = x;
@@ -12,7 +12,7 @@ Trem::Trem(int ID, int x, int y){
     this->incremento = 5;
 }
 
-//Função a ser executada após executar trem->START
+//função a ser executada após executar trem->START
 void Trem::run(){
     while(true){
         switch(ID){

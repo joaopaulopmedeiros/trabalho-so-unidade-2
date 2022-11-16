@@ -5,8 +5,7 @@
 #include <QMutex>
 
 /*
- * Classe Trem herda QThread
- * Classe Trem passa a ser uma thread.
+ * Classe Trem herda de QThread passa a ser uma thread.
  * A função START inicializa a thread. Após inicializada, a thread irá executar a função RUN.
  * Para parar a execução da função RUN da thread, basta executar a função TERMINATE.
  *

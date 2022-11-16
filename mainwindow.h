@@ -26,24 +26,19 @@ public:
 
 public slots:
     void updateInterface(int,int,int);
+    void on_velTrem01_valueChanged(int value);
+    void on_velTrem02_valueChanged(int value);
+    void on_velTrem04_valueChanged(int value);
+    void on_velTrem03_valueChanged(int value);
+    void on_velTrem05_valueChanged(int value);
 
 private slots:
     void start_trains();
 
-    void on_velTrem01_valueChanged(int value);
-
-    void on_velTrem02_valueChanged(int value);
-
-    void on_velTrem04_valueChanged(int value);
-
-    void on_velTrem03_valueChanged(int value);
-
-    void on_velTrem05_valueChanged(int value);
-
 private:
     Ui::MainWindow *ui;
 
-    //Cria os objetos TREM's
+    //trens presentes na interface do usuário
     Trem *trem1;
     Trem *trem2;
     Trem *trem3;
