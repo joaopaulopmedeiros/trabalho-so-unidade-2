@@ -28,9 +28,7 @@ public slots:
     void updateInterface(int,int,int);
 
 private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
+    void start_trains();
 
     void on_velTrem01_valueChanged(int value);
 

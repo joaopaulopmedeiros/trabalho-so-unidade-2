@@ -15,6 +15,8 @@ MainWindow::MainWindow(QWidget *parent) :
     trem4 = new Trem(4,195,190);
     trem5 = new Trem(5,735,190);
 
+    start_trains();
+
     /*
      * Conecta o sinal UPDATEGUI à função UPDATEINTERFACE.
      * Ou seja, sempre que o sinal UPDATEGUI foi chamado, será executada a função UPDATEINTERFACE.
@@ -79,25 +81,13 @@ QString MainWindow::getFormatedValue(int value) {
 /*
  * Ao clicar, trens começam execução
  */
-void MainWindow::on_pushButton_clicked()
+void MainWindow::start_trains()
 {
     trem1->start();
     trem2->start();
     trem3->start();
     trem4->start();
     trem5->start();
-}
-
-/*
- * Ao clicar, trens param execução
- */
-void MainWindow::on_pushButton_2_clicked()
-{
-    trem1->terminate();
-    trem2->terminate();
-    trem3->terminate();
-    trem4->terminate();
-    trem5->terminate();
 }
 
 void MainWindow::on_velTrem01_valueChanged(int value)
